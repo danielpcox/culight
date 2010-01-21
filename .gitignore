@@ -1,0 +1,31 @@
+config/database.yml
+log/*.log
+tmp/**/*
+db/*.sqlite3
+db/schema.rb
+*.swp
+*.swo
+coverage
+public/system
+Thumbs.db
+scratch_directory
+mkmf.log
+
+# Other useful tidbit
+.DS_Store
+doc/api
+doc/app
+doc/plugins
+coverage
+*~
+
+# For bundler.  We want to ignore everything but the gem cache.
+bin/*
+vendor/bundler_gems/*
+!vendor/bundler_gems/ruby
+vendor/bundler_gems/ruby/**/*
+!vendor/bundler_gems/ruby/**/cache
+
+rerun.txt
+
+db/dumps/**/*

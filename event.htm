@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Light 2009</title>
+    <link rel="stylesheet" type="text/css" href="lightMain.css" />
+    <script src="javascripts/mainLight.js" type="text/javascript"></script>
+  </head>
+  <body onLoad="if (document.getElementById('ammap')) {ammap.focus();}" onResize="resizeContentPane();">
+    <script type="text/javascript" src="ammap/swfobject.js"></script>
+    <!--        <div id="eventDD" onMouseOver="dropDown('eventDD');" onMouseOut="undrop('eventDD');">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Promo Media</a></li>
+        <li><a href="#">Directions</a></li>
+      </ul>
+    </div>
+    <div id="prayDD" onMouseOver="dropDown('prayDD');" onMouseOut="undrop('prayDD');">
+      <ul>
+        <li><a href="#">Countries</a></li>
+        <li><a href="#">Testimonies</a></li>
+      </ul>
+    </div>
+    <div id="sendDD" onMouseOver="dropDown('sendDD');" onMouseOut="undrop('sendDD');">
+      <ul>
+        <li><a href="#">Give</a></li>
+        <li><a href="#">Support Missions</a></li>
+        <li><a href="#">Testimonies</a></li>
+        <li><a href="#">Trips</a></li>
+      </ul>
+    </div>
+    <div id="goDD" onMouseOver="dropDown('goDD');" onMouseOut="undrop('goDD');">
+      <ul>
+        <li><a href="#">Mission Organizations</a></li>
+        <li><a href="#">Short-term Trips</a></li>
+        <li><a href="#">Testimonies</a></li>
+      </ul>
+    </div>  -->
+    <!--<div id="header">
+      <a href="index.htm"><img src="images/header_logo.png" /></a>
+      <a href="event.htm"><img src="images/header_menu_event_off.png" name='header_menu_event' onMouseOver="dropDown('eventDD'); over(0);" onMouseOut="undrop('eventDD'); out(0);" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="pray.htm"><img src="images/header_menu_pray_off.png" name='header_menu_pray' onMouseOver="dropDown('prayDD'); over(1)" onMouseOut="undrop('prayDD'); out(1);" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="send.htm"><img src="images/header_menu_send_off.png" name='header_menu_send' onMouseOver="dropDown('sendDD'); over(2)" onMouseOut="undrop('sendDD'); out(2)" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="go.htm"><img src="images/header_menu_go_off.png" name='header_menu_go' onMouseOver="dropDown('goDD'); over(3)" onMouseOut="undrop('goDD'); out(3)" /></a>
+    </div>-->
+    <div id="header">
+      <a href="index.htm"><img src="images/header_logo.png" /></a>
+      <a href="event.htm"><img src="images/header_menu_event_off.png" name='header_menu_event' onMouseOver="over(0);" onMouseOut="out(0);" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="pray.htm"><img src="images/header_menu_pray_off.png" name='header_menu_pray' onMouseOver="over(1)" onMouseOut="out(1);" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="send.htm"><img src="images/header_menu_send_off.png" name='header_menu_send' onMouseOver="over(2)" onMouseOut="out(2)" /></a>
+      <img src="images/header_menu_separator.png" />
+      <a href="go.htm"><img src="images/header_menu_go_off.png" name='header_menu_go' onMouseOver="over(3)" onMouseOut="out(3)" /></a>
+    </div>
+    <div id="flashcontent">
+      <div class="header">
+        <img class="title" src="images/pagetitle_about_event.png">
+        <div class="subtext"><span style="font-style:italic;">In him was life, and the life was the light of men. The light shines in the darkness and the darkness has not overcome it.</span> John 1:4-5</div>
+        <div class="text">Light 09 is a night of praise, exhortation, prayer for the nations, and resources for Summer 2009 mission trips. Our hope is that Christians in Ithaca and all over the world would know God's heart for the nations and be encouraged to pray, send and go.</div>
+      </div>
+      <div class="infoBlock">
+        <div class="title">What is the history behind Light 09?</div>
+        <div class="text">Briefly put, Light 09 is the fusing of two missions mobilization/information/prayer nights that were held in the past at Cornell University, which included KCCE's CUStraightAhead and the Student Volunteer Movement (SVM2).</div>
+      </div>
+      <div class="infoBlock">
+        <div class="title"><strong>When/where is Light 09?</strong></div>
+        <div class="text">Light 09 will be held on <b>February 21, 2009</b> in <b>BioTech G10</b> from <b>7:00 -  9:30PM</b>. (Here is a <a style="color:#777777" id="biotechMap" href="http://maps.google.com/maps/ms?hl=en&gl=us&ptab=2&ie=UTF8&oe=UTF8&msa=0&msid=106913444324294867928.00046347d9a73ede53b19&ll=42.44775,-76.478362&spn=0.0209,0.032959&z=15">Google Map</a> to the BioTech building, which is between and behind the Lynah skating rink and Teagle hall.)</div>
+      </div>
+      <div style="clear:left;">&nbsp;</div> <!-- without this, the infoBlocks may not space themselves out in a nice 4x4 grid (check IE) -->
+      <div class="infoBlock">
+        <div class="title"><strong>What's the schedule for the night?</strong></div>
+        <div class="text">7:00-7:20&nbsp;&nbsp; Worship<br>
+          7:20-8:00&nbsp;&nbsp;&nbsp;Exhortation (Elyse Lee '08, Pioneers International staff)<br>
+          8:00-8:10&nbsp;&nbsp; Response/prayer and Video<br>
+          8:10-9:00&nbsp;&nbsp; Prayer for the Nations<br>
+          9:00-9:30&nbsp;&nbsp; Closing Worship and Prayer</div>
+      </div>
+      <div class="infoBlock">
+        <div class="title"><strong>What is "Prayer for the Nations"?</strong></div>
+        <div class="text">From roughly 8:00 to 9:00, we will have 12 "country stations" set up around the room with information and prayer requests for each nation, as well as pictures and videos. During the prayer time, attendees will be able to move freely around the room to intercede for the nations.
+        </div>
+      </div>
+      <div class="headerSpacer"></div>
+      <div class="header">
+        <img class="title" src="images/pagetitle_about_about.png">
+        <div class="subtext"><span style="font-style:italic;">Welcome to the website of Light 09!</div>
+          <div class="text">Based on the missions event of the same name, this website exists to continue the vision of Light 09 throughout the rest of the year by educating, encouraging, supporting, and providing resources about world missions to the body of Christ in Ithaca and beyond.</div>
+        </div>
+        <div class="infoBlockWide">
+          <div class="title"><strong>On this site you will find:</strong></div>
+          <div class="text"><ul>
+              <li>Information and prayer requests for nations</li>
+              <li>Opportunities to go on missions (summer 2009 and longterm)</li>
+              <li>Testimonies from Ithacans who have gone on trips in the past</li>
+              <li>Support information for those who will be going on missions</li>
+              <li>Other resources such as pictures, videos, and noteworthy quotes pertaning to missions</li>
+              <li>Links to various groups affiliated with Light 09</li>
+              <li>Registration for our email list</li>
+              <li>In the future, we hope to set up an online fund to support those going on mission trips from Cornell and Ithaca.</li></ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div style="float:right">More...</div>
+        <div id="imageWrap"> <a href="http://joshuaproject.net"><img class="one" src="images/footer_link_joshproj.png" /></a> <a href="http://persecution.org"><img class="two" src="images/footer_link_persecution.png" /></a> <a href="http://urbana.org"><img class="three" src="images/footer_link_urbana.png" /></a> <a href="http://www.thetravelingteam.org/"><img class="four" src="images/footer_link_travelingteam.png" /></a> <a href="http://ammap.com"><img class="five" src="images/footer_link_ammap.png" /></a>
+          <div></div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        // <![CDATA[		
+      resizeContentPane();
+      // ]]>
+      </script>
+      <!-- end of ammap script -->
+
+
+        <!-- Google Analytics code -->
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-75227-9");
+                pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+
+    </body>
+  </html>
