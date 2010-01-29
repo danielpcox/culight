@@ -812,7 +812,7 @@
 				</label>
 			</labels>
 		</area>
-		<area zoom="2075.3571%" zoom_x="-519.53%" zoom_y="-1255.24%" title="HAITI" mc_name="HT">
+		<area title="HAITI" color="5d5d5d" url="JavaScript:popCountry('HT')" mc_name="HT" zoom="2075.3571%" zoom_x="-519.53%" zoom_y="-1255.24%" text_box_width="90%" text_box_height="90%">
 			<labels>
 				<label x="11" y="226" remain="false" color="#000000" color_hover="#" zoom_x="0%" zoom_y="0" zoom="100%">
 					<text><![CDATA[<font size="+30"><b>zoom out</b></font>]]></text>
@@ -873,7 +873,7 @@
 				</label>
 			</labels>
 		</area>
-		<area zoom="629.8048%" zoom_x="-457.48%" zoom_y="-412.42%" title="INDONESIA" mc_name="ID">
+		<area url="JavaScript:popCountry('ID')" color="#5d5d5d" text_box_width="90%" text_box_height="90%" zoom="629.8048%" zoom_x="-457.48%" zoom_y="-412.42%" title="INDONESIA" mc_name="ID">
 			<labels>
 				<label x="11" y="226" remain="false" color="#000000" color_hover="#" zoom_x="0%" zoom_y="0" zoom="100%">
 					<text><![CDATA[<font size="+30"><b>zoom out</b></font>]]></text>
@@ -1938,7 +1938,7 @@
 				</label>
 			</labels>
 		</area>
-		<area url="JavaScript:popCountry('GB')" zoom="891%" zoom_x="-368.17%" zoom_y="-334%" title="UNITED KINGDOM" mc_name="GB" color="#5d5d5d"  text_box_width="90%" text_box_height="90%" >
+		<area zoom="891%" zoom_x="-368.17%" zoom_y="-334%" title="UNITED KINGDOM" mc_name="GB">
 			<description></description>
 			<labels>
 				<label x="11" y="226" remain="false" color="#000000" color_hover="#" zoom_x="0%" zoom_y="0" zoom="100%">
